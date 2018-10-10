@@ -141,10 +141,10 @@ body {
     height: 25%;
     border: 2px solid white;
     box-sizing: border-box;
-    background: #2363cc;
+    background: #f11e17;
 }
 #weather-box li.double {
-    width: 50%;
+    width: 100%;
 }
 #weather-box li.full {
     width: 100%;
