@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+@font-face {
+  font-family: "aleobold";
+  src: url("/fonts/aleo-bold-webfont.woff2") format("woff2"), url("/fonts/aleo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleobolditalic";
+  src: url("/fonts/aleo-bolditalic-webfont.woff2") format("woff2"), url("/fonts/aleo-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleoitalic";
+  src: url("/fonts/aleo-italic-webfont.woff2") format("woff2"), url("/fonts/aleo-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleolight";
+  src: url("/fonts/aleo-light-webfont.woff2") format("woff2"), url("/fonts/aleo-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleolightitalic";
+  src: url("/fonts/aleo-lightitalic-webfont.woff2") format("woff2"), url("/fonts/aleo-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleoregular";
+  src: url("/fonts/aleo-regular-webfont.woff2") format("woff2"), url("/fonts/aleo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#scroll .cls-2 {
+  fill: #ffffff;
+}
+
+#search-logo .cls-2 {
+  fill: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-width: 1024px;
+}
+
+.header {
+  height: 657px;
+  text-align: center;
+}
+.header .section-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #0468a0 url("image/background-1.png") no-repeat center;
+  background-size: cover;
+}
+.header h1 {
+  margin: 0;
+  font: 700 48px Josefin, sans-serif;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding-top: 220px;
+  text-transform: uppercase;
+}
+.header p {
+  font: 400 22px Josefin, serif;
+  line-height: 26px;
+  letter-spacing: 0.31em;
+  color: #ffffff;
+}
+.header .search {
+  width: 500px;
+  height: 50px;
+  font: 400 14px Josefin, serif;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  position: relative;
+  padding-left: 58px;
+  box-sizing: border-box;
+}
+.header .search:focus {
+  background: #ffe;
+  border: 2px solid #18d9a2;
+}
+.header .btn-search {
+  position: absolute;
+  background: #5474fd;
+  height: 46px;
+  width: 120px;
+  right: 426px;
+  top: 318px;
+  border: none;
+  font: 14px aleoregular, serif;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+.header .btn-search:hover {
+  opacity: 0.7;
+}
+.header .svg-search {
+  position: absolute;
+  right: 432px;
+  top: 331px;
+}
+.header .scroll {
+  position: absolute;
+  top: 470px;
+  left: 640px;
+  font: 400 14px Josefin, sans-serif;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header .svg-scroll {
+  position: absolute;
+  left: 44px;
+  bottom: -19px;
+}
+.header .head-nav {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  background: #5474fd;
+}
+.header span {
+  font: 700 24px Josefin, sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  position: absolute;
+  left: 240px;
+  top: 25px;
+}
+.header nav a {
+  font-family: aleoregular, serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+  padding-top: 23px;
+  padding-right: 40px;
+}
+.header nav a:first-child {
+  padding-right: 100px;
+}
+.header nav a:hover {
+  text-decoration: overline;
+  color: #ffffff;
+}
+
+#s2 .section-2 {
+  background: #3e3d3d url("image/background-2.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 682px;
+  width: 100%;
+}
+#s2 .section-2 h2 {
+  margin: 0;
+  font-family: aleoregular, serif;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-left: 132px;
+  padding-bottom: 60px;
+}
+#s2 .section-2 p {
+  font: 400 16px JosefinSans, serif;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #e8e8e8;
+  margin: 0;
+  padding-left: 132px;
+  height: 145px;
+  width: 541px;
+}
+#s2 .section-2 input[type=submit] {
+  width: 230px;
+  height: 63px;
+  background: #5474fd;
+  border: none;
+  font: 16px aleoregular, serif;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 132px;
+  margin-top: 50px;
+}
+#s2 .section-2 input[type=submit]:hover {
+  opacity: 0.7;
+  border: 2px solid #29b2cc;
+}
+#s2 .section-2 img {
+  position: absolute;
+}
+#s2 .section-2 .image-1 {
+  top: 120px;
+  right: 240px;
+}
+#s2 .section-2 .image-2 {
+  top: 345px;
+  right: 100px;
+}
+
+.how-it-works {
+  height: 340px;
+  margin: 0;
+  background: #333333 url("image/How It Works.png") no-repeat center;
+  background-size: cover;
+}
+
+#s3 .section-3 {
+  height: 700px;
+  background: #784970 url("image/background-3.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+#s3 .section-3 .frame {
+  height: 372px;
+  width: 530px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 229px;
+  left: 100px;
+}
+#s3 .section-3 .frame span {
+  font: 20px JosefinSans, serif;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  color: #e8e8e8;
+  display: block;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+#s3 .section-3 .frame h2 {
+  font: 20px JosefinSans, serif;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+  padding: 20px 0 20px 20px;
+}
+#s3 .section-3 .frame p {
+  font: 16px JosefinSans, serif;
+  line-height: 26px;
+  color: #e8e8e8;
+  padding-left: 20px;
+}
+#s3 .section-3 .frame input[type=submit] {
+  font: 16px aleoregular, serif;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 230px;
+  height: 63px;
+  background: #5474fd;
+  border: none;
+  margin-left: 20px;
+}
+#s3 .section-3 .frame input[type=submit]:hover {
+  opacity: 0.7;
+  border: 2px solid #29b2cc;
+}
+
+#s4 .section-4 {
+  height: 700px;
+  background: #56323e url("image/background-4.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+#s4 .frame {
+  height: 372px;
+  width: 530px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 229px;
+  right: 100px;
+}
+#s4 .frame span {
+  font: 20px JosefinSans, serif;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  color: #e8e8e8;
+  display: block;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+#s4 .frame h2 {
+  font: 20px JosefinSans, serif;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+  padding: 20px 0 20px 20px;
+}
+#s4 .frame p {
+  font: 16px JosefinSans, serif;
+  line-height: 26px;
+  color: #e8e8e8;
+  padding-left: 20px;
+}
+#s4 .frame input[type=submit] {
+  font: 16px aleoregular, serif;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 230px;
+  height: 63px;
+  background: #5474fd;
+  border: none;
+  margin-left: 20px;
+}
+#s4 .frame input[type=submit]:hover {
+  opacity: 0.7;
+  border: 2px solid #29b2cc;
+}
+
+#s5 .section-5 {
+  height: 731px;
+  background: #2c2d2e url("image/background-5.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+#s5 .section-5 h2 {
+  font: 36px aleoregular, serif;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 120px;
+  margin: 0;
+}
+#s5 .section-5 .photo {
+  width: 445px;
+  height: 284px;
+  background: url("image/photo.png") no-repeat;
+  position: absolute;
+  top: 250px;
+  left: 128px;
+}
+#s5 .section-5 .bio {
+  position: absolute;
+  height: 284px;
+  width: 632px;
+  right: 144px;
+  top: 250px;
+  background-color: #333333;
+}
+#s5 .section-5 .bio h3 {
+  font: 20px JosefinSans, serif;
+  line-height: 26px;
+  color: #fefefe;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0;
+}
+#s5 .section-5 .bio p {
+  font: 16px JosefinSans, serif;
+  line-height: 26px;
+  color: #e8e8e8;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#footer div {
+  height: 100px;
+  background-color: #232323;
+  position: relative;
+}
+#footer div h2 {
+  margin: 0;
+  padding-top: 70px;
+  text-align: center;
+  font: 700 24px JosefinSans, sans-serif;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 0.14em;
+  color: #ffffff;
+}
+#footer div p {
+  display: block;
+  margin: 0;
+  padding-top: 5px;
+  font: 16px JosefinSans, serif;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-align: center;
+  background-color: #232323;
+}
+#footer div .link-box {
+  text-align: center;
+  padding-top: 25px;
+}
+#footer div .link-box a {
+  text-decoration: none;
+}
+#footer div .link-box img {
+  padding-left: 23px;
+}
+#footer div .link-box .fb {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
